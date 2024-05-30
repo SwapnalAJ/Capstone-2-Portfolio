@@ -1,0 +1,88 @@
+ body{ 
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-size: 5rem;
+    color: darkturquoise;
+}
+h2{
+    font-size: 3rem;
+    color: darkturquoise;
+}
+h3{
+    font-size: 1.5rem;
+    color: darkturquoise;
+}
+p{  
+    
+    font-size: 1.2rem;
+    display: block;
+    line-height: 2;
+}
+hr{
+    display: block;
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #11999e;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+div{
+    display: block;
+}
+.top-container{
+    position: relative;
+    background-color: lightcyan;
+    padding-top: 4rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+.middle-container{
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+ } 
+.profile > img{    
+    border-radius: 50%;
+ }
+.intro{
+    width: 60%;
+    margin: auto;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 100px auto 0 auto;
+    width: 52%;
+    text-align: left;
+    gap: 2rem;
+}
+.contact-message {
+    width: 50%;
+    margin: 40px auto 60px;
+}
+.btn{
+    background-color: darkturquoise;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;   
+}
+
+.bottom-container{
+    position: relative;
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.copyright{
+    color: white;
+}
